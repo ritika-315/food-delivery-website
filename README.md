@@ -63,8 +63,8 @@ cd food-del/frontend
 Install Dependencies:
 npm install
 
-frontend_url: http://localhost:5173
-backend_url: http://localhost:5174
+frontend_url: http://localhost:5174
+backend_url: http://localhost:5173
 
 Run the Development Server:
 npm start
