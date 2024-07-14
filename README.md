@@ -57,22 +57,15 @@ The frontend is built using React and styled with Tailwind CSS. It provides an i
 
 Setup
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/food-del.git
 cd food-del/frontend
+
 Install Dependencies:
-
-bash
-Copy code
 npm install
-Run the Development Server:
 
-bash
-Copy code
+Run the Development Server:
 npm start
-The application will be accessible at http://localhost:3000.
+The application will be accessible at http://localhost:4001.
 
 Components
 Navbar: Provides navigation links and user profile options.
@@ -86,6 +79,9 @@ The backend is built using Node.js and Express.js, with MongoDB for data storage
 
 Setup
 Navigate to the Backend Directory:
+cd backend
+
+Install Dependencies:
 npm install
 Create a .env File:
 
@@ -96,7 +92,7 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 
 Run the Development Server:
 npm start
-The server will be accessible at http://localhost:4000.
+The server will be accessible at http://localhost:4001.
 
 Endpoints
 POST /api/order/place - Place a new order.
@@ -124,5 +120,5 @@ Create a new branch (git checkout -b feature-branch).
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Create a pull request.
-
-
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
